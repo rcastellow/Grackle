@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Copernicus" name="com.pac.xaqtrix.comparator.CommandActionComparatorTests" tests="1" time="0.152" timestamp="2010-01-08T03:39:40">
+  <properties />
+  <testcase classname="com.pac.xaqtrix.comparator.CommandActionComparatorTests" name="testCompare" time="0.058" />
+  <system-out><![CDATA[--Output from testCompare--
+]]></system-out>
+  <system-err><![CDATA[--Output from testCompare--
+]]></system-err>
+</testsuite>

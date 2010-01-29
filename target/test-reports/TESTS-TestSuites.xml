@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Copernicus" id="0" name="CommandActionTests" package="" tests="1" time="0.017" timestamp="2010-01-19T03:38:50">
+      <properties />
+
+      <testcase classname="CommandActionTests" name="testSomething" time="0.0010" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Copernicus" id="1" name="EnvironmentTests" package="" tests="1" time="0.555" timestamp="2010-01-19T03:38:49">
+      <properties />
+
+      <testcase classname="EnvironmentTests" name="testSomething" time="0.0060" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="Copernicus" id="2" name="JMSClientTests" package="" tests="1" time="0.261" timestamp="2010-01-19T03:38:50">
+      <properties />
+
+      <testcase classname="JMSClientTests" name="testJMSClient" time="0.241">
+          <error message="No signature of method: com.pac.grackle.ReportingServiceImpl.sendMessage() is applicable for argument types: (java.lang.String, java.lang.String) values: [seda:my.queue, this is a message to the queue service...]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.pac.grackle.ReportingServiceImpl.sendMessage() is applicable for argument types: (java.lang.String, java.lang.String) values: [seda:my.queue, this is a message to the queue service...]
+	at com.pac.grackle.ReportingServiceImpl.sendReport(ReportingServiceImpl.groovy:8)
+	at com.pac.grackle.ReportingService$sendReport.call(Unknown Source)
+	at JMSClientTests.testJMSClient(JMSClientTests.groovy:10)
+	at junit.framework.Test$run.call(Unknown Source)
+	at junit.framework.Test$run.call(Unknown Source)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:262)
+	at _GrailsTest_groovy$_run_closure4.call(_GrailsTest_groovy)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:221)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:181)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:168)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:102)
+	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:344)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:334)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.processTargets(Gant.groovy:495)
+	at gant.Gant.processTargets(Gant.groovy:480)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testJMSClient--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testJMSClient--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Copernicus" id="3" name="ProjectTests" package="" tests="1" time="0.02" timestamp="2010-01-19T03:38:50">
+      <properties />
+
+      <testcase classname="ProjectTests" name="testSomething" time="0.0010" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Copernicus" id="4" name="TaskTests" package="" tests="1" time="0.016" timestamp="2010-01-19T03:38:50">
+      <properties />
+
+      <testcase classname="TaskTests" name="testSomething" time="0.0010" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

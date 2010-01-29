@@ -1,0 +1,5 @@
+task count << {
+    println "**************** "
+    4.times { print "$it " }
+    print "end Gradle script"
+}

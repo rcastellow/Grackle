@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Copernicus" name="com.pac.xaqtrix.domain.TaskTests" tests="1" time="0.016" timestamp="2010-01-08T03:39:41">
+  <properties />
+  <testcase classname="com.pac.xaqtrix.domain.TaskTests" name="testRun" time="0.0010" />
+  <system-out><![CDATA[--Output from testRun--
+]]></system-out>
+  <system-err><![CDATA[--Output from testRun--
+]]></system-err>
+</testsuite>
